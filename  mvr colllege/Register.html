@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>MVR COLLEGE OF ENGINEERING AND TECHNOLOGY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="zmvr.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+
+<nav>
+    <a href="Register.html"><img src="IMAGES/logo.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="Index.html">HOME</a></li>
+            <li><a href="FacultyRegistration.html">FACULTY REGISTER</a></li>
+            <li><a href="Register.html">STUDENT REGISTER</a></li>
+            <li><a href="SignIn.html">SIGN IN</a></li>
+            <li><a href="Info.html">INFO</a></li>
+            <li><a href="">CONTACT US</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+
+</nav>
+<script>
+
+    var navLinks =document.getElementById("navLinks");
+    function showMenu()
+    {
+       navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+       navLinks.style.right = "-200px";
+    }
+
+</script>
+<section>
+<div class="split-screen">
+        <div class="left">
+         <section class="copy">
+            <h2>STUDENT REGISTER</h2>
+        </div>
+        <div class="login-containername">
+            <label for="fname">Full Name</label>
+            <input type="fname" name="fname" type="text" id="name">
+        
+        <div>
+            <label for="pin">Pin number</label>
+            <input type="pin" name="pin" type="text" id="pin">
+        </div>
+        <div>
+            <label for="Branch">Branch Name</label>
+            <input type="Branch" name="Branch" type="text" id="branch">
+        </div>
+        <div>
+            <label for="no">Phone Number</label>
+            <input type="no" name="no" type="text" id="ph">
+        </div>
+        <div>
+            <label for="ID">Email ID</label>
+            <input type="ID" name="ID" type="text" id="email">
+        </div>
+        <div>
+            <label for="Password">Password</label>
+           <input type="Password" name="Password" type="text" id="pass">
+        </div>
+        <div>
+            <label for="Verify">Verify Password</label>
+           <input type="Verify" name="Verify" type="text" id="verifypass">
+        </div>
+    </div>
+    </section>
+</div>
+<div class="center">
+    <input type="submit" name="" value="Login">
+</div>
+</body>
+</html>

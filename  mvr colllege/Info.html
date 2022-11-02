@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>MVR COLLEGE OF ENGINEERING AND TECHNOLOGY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="zmvr.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+
+<nav>
+    <a href="Index.HTML"><img src="IMAGES/logo.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="Index.html">HOME</a></li>
+            <li><a href="FacultyRegistration.html">FACULTY REGISTER</a></li>
+            <li><a href="Register.html">STUDENT REGISTER</a></li>
+            <li><a href="SignIn.html">SIGN IN</a></li>
+            <li><a href="Info.html">INFO</a></li>
+            <li><a href="">CONTACT US</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+    
+</nav>
+<div class="table">
+    <h5 class="Head">COURSES THAT WE ARE OFFERING</h5>
+    <div class="row">
+        <div class="effect-col">
+       <h6>Diploma</h6>
+       <p>1. Diploma In Computer Engineering <br> 2. Diploma In Electromics and Communication Engineering <br>3. Diploma In Electrical and Electronics Engineering <br>4. Diploma In Mechanical Engineering <br>5. Diploma In Civil Engineering</p>
+      </div>
+      <div class="effect-col">
+        <h6>B.Tech</h6>
+        <p>1.  Computer Science And Engineering. <br> Computer Engineering In AIDS and AI.<br> 2. Electromics and Communication Engineering <br>3. Mechanical Engineering <br>4. Civil Engineering </p>
+      </div>
+       <div class="effect-col">
+        <h6>M.Tech</h6>
+        <p>1. M.Tech In Computer Science & Engineering <br> 2. M.Tech In Structural Engineering <br> 3. M.Tech In Transportation Engineering </p>
+     </div>
+     <div class="effect">
+        <h6>MBA</h6>
+         <p> 1. Mater Of Bussiness Administration</p>
+     </div>
+
+</div>
+    </section>
+    <script>
+
+         var navLinks =document.getElementById("navLinks");
+         function showMenu()
+         {
+            navLinks.style.right = "0";
+         }
+         function hideMenu()
+         {
+            navLinks.style.right = "-200px";
+         }
+
+    </script>
+</body>
+</html>
